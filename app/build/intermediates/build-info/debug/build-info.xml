@@ -2,67 +2,34 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="27"
-    build-mode="FULL"
+    build-mode="HOT_WARM"
     density="560dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1519511002912"
+    timestamp="1519570301805"
     token="1558424546394936603"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="136" />
+        duration="108" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="15" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="38" />
     <task
         name="verifier"
         duration="2" />
 
     <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/outputs/apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1519511002912"
+        timestamp="1519569189682"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -100,6 +67,47 @@
         <artifact
             location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1519570097114"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1519570180481"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/builds/debug/1519570180481/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1519570220881"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/builds/debug/1519570220881/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1519570231313"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/builds/debug/1519570231313/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1519570301805"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/doctor_ew/AndroidStudioProjects/Poloniex/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
